@@ -1,0 +1,33 @@
+/* Write your CSS here */
+/* Write your CSS here */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+  height: 100vh;
+}
+.innerDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  width: 70vw;
+  height: 80vh;
+  border-radius: 10px;
+}
+.heading {
+  color: #ff8542;
+  margin: 2%;
+}
+
+.ullist {
+  list-style-type: none;
+}
